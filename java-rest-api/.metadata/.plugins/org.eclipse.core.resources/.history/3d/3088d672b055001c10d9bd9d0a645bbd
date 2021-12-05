@@ -1,0 +1,9 @@
+package com.todo.restApi.db;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TodoJpaRepository extends JpaRepository<Todo,Integer>{
+	
+	
+
+}

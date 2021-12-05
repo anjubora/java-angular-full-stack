@@ -1,0 +1,11 @@
+package com.todo.restApi.services;
+
+import com.todo.restApi.entity.BasicAuthenticateBean;
+
+public class BasicAuthService {
+	
+	public BasicAuthenticateBean basicAuth() {
+		return new BasicAuthenticateBean("you are authenticated");
+	}
+
+}

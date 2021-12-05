@@ -1,0 +1,5 @@
+package com.todo.restApi.db;
+
+public class Todo {
+
+}
